@@ -1,0 +1,46 @@
+ReactJs creact SPA application
+
+SPA Single Page Application
+
+public/index.html
+     <div id="root">
+          You elements loads here...
+     </div>
+
+npm start
+    -> react-script start
+           -> src/index.js
+                ->Which file to render/View i.e index.html
+                ->Where to load inside index.html
+
+           public/index.html
+              <div id="root">
+                  You elements loads here...
+              </div>
+
+How you can access DOM element in Js ?
+1. document.getElementById("")
+2. document.querySelector(' ');
+
+
+ReactJs is nothing but a NodeJs project 
+
+
+NodeJs support Import/Export
+
+Types of address
+
+1. Relative Address  ./
+2. Absolulate Address  C:/  
+
+
+Nested Components
+     
+      A
+           B
+               C
+   
+    MyComp1(default export)
+         MyComp2(named export)
+            MyComp3(named export)
+      
